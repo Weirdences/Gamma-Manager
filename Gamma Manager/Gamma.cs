@@ -15,7 +15,7 @@ namespace Gamma_Manager
         public static ushort[,] CreateGammaRamp(float rGamma, float gGamma, float bGamma, float rContrast, float gContrast, float bContrast, float rBright, float gBright, float bBright)
         {
             //Gamma check
-            const float MaxGamma = 4.4f;
+            const float MaxGamma = 6.0f;
             const float MinGamma = 0.3f;
             rGamma = Clamp(rGamma, MinGamma, MaxGamma);
             gGamma = Clamp(gGamma, MinGamma, MaxGamma);
